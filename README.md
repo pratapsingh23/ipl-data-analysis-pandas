@@ -1,0 +1,69 @@
+ ## IPL Data Analysis (2008 - 2017)
+
+A comprehensive Data Analysis project on Indian Premier League (IPL) matches dataset using **Python** and **Pandas**. This project explores match outcomes, team performances, toss impacts, venue insights, and team rivalries over a 10-year period.
+
+---
+
+##  Project Overview
+The objective of this project is to perform Exploratory Data Analysis (EDA) on IPL historical data to unveil key patterns, strategic insights, and statistics about teams, players, and match outcomes.
+
+---
+
+##  Tech Stack & Methods Used
+* **Language:** Python
+* **Data Processing:** Pandas
+* **Environment:** Jupyter Notebook / Google Colab
+* **Key Pandas Techniques:** `groupby()`, `value_counts()`, `drop_duplicates()`, boolean indexing, dynamic filtering, data cleaning & imputation.
+
+---
+
+##  Data Cleaning & Preprocessing
+* **Missing Value Imputation:** Filled 7 missing values in the `city` column using location data from the `venue` column.
+* **Handling Unplayed Matches:** Handled missing values in the `winner` column by categorizing them as `'No Result'`.
+* **Column Dropping:** Dropped the `umpire3` column due to complete absence of historical records (100% missing values).
+
+---
+
+##  Key Findings & Insights
+
+### 1. Overall Match Stats
+* **Total Matches Played:** 636
+* **Most Successful Team:** Mumbai Indians (92 Wins), followed by Chennai Super Kings (79 Wins).
+* **Most Player of the Match Awards:** CH Gayle (18 times), followed by YK Pathan (16 times).
+
+### 2. Match Dynamics & Trends
+* **Toss Impact:** The team winning the toss won the match **325 times** (~51.1%).
+* **Toss Choice Preference:** Teams chose to **Field first (363 times)** significantly more than choosing to Bat first (273 times).
+* **Chasing Advantage:** Teams bowling/chasing first won **53.30%** of total matches compared to 45.13% won by teams batting first.
+
+### 3. Venue & Rivalry Highlights
+* **Most Played Stadium:** M. Chinnaswamy Stadium (66 Matches).
+* **Chinnaswamy Stadium Trend:** Chasing teams dominated with 36 wins compared to 27 wins for teams batting first.
+* **El Clásico (MI vs CSK Head-to-Head):** Mumbai Indians edge out Chennai Super Kings with a **12 - 10** head-to-head win record.
+
+### 4. Record Margin Victories
+* **Largest Run Margin Victory:** Mumbai Indians defeated Delhi Daredevils by **146 runs** in 2017.
+* **10-Wicket Victories:** Recorded 10 times in IPL history between 2008 and 2017.
+
+---
+
+##  Season Champions Summary
+| Season | Champion |
+| :---: | :--- |
+| **2008** | Rajasthan Royals |
+| **2009** | Deccan Chargers |
+| **2010** | Chennai Super Kings |
+| **2011** | Chennai Super Kings |
+| **2012** | Kolkata Knight Riders |
+| **2013** | Mumbai Indians |
+| **2014** | Kolkata Knight Riders |
+| **2015** | Mumbai Indians |
+| **2016** | Sunrisers Hyderabad |
+| **2017** | Mumbai Indians |
+
+---
+
+##  How to Run
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
