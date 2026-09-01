@@ -39,8 +39,8 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on I
 ### 3. Venue & Rivalry Highlights
 * **Most Played Stadium:** M. Chinnaswamy Stadium (66 Matches).
 * **Chinnaswamy Stadium Trend:** Chasing teams dominated with 36 wins compared to 27 wins for teams batting first.
-* **El Clásico (MI vs CSK Head-to-Head):** Mumbai Indians edge out Chennai Super Kings with a **12 - 10** head-to-head win record.
-
+* **(MI vs CSK Head-to-Head):** Mumbai Indians edge out Chennai Super Kings with a **12 - 10** head-to-head win record.
+* **(RCB vs CSK Head-to-Head):** CSK won more matches rather than RCB **(6 - 4)**  win record.
 ### 4. Record Margin Victories
 * **Largest Run Margin Victory:** Mumbai Indians defeated Delhi Daredevils by **146 runs** in 2017.
 * **10-Wicket Victories:** Recorded 10 times in IPL history between 2008 and 2017.
