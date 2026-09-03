@@ -66,4 +66,4 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on I
 ##  How to Run
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
+   git clone https://github.com/pratapsingh23/ipl-data-analysis-pandasa.git
