@@ -18,10 +18,10 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on I
 ---
 
 ##  Data Cleaning & Preprocessing
-* **Missing Value Imputation:** Filled 7 missing values in the `city` column using location data from the `venue` column.
-* **Handling Unplayed Matches:** Handled missing values in the `winner` column by categorizing them as `'No Result'`.
-* **Column Dropping:** Dropped the `umpire3` column due to complete absence of historical records (100% missing values).
-
+* **Missing Value Imputation:** Filled missing values in the `city` column dynamically using corresponding venue locations.
+* **Inplace Bug Fix for Missing Winners:** Correctly imputed missing values in the `winner` column using reassignment (`df['winner'] = df['winner'].fillna('No Result')`) to permanently persist changes in memory instead of temporary series outputs.
+* **Team Name Standardization:** Standardized duplicate team name entries (e.g., merging `'Rising Pune Supergiant'` and `'Rising Pune Supergiants'` into a single normalized entity) using `.replace()` mapping to ensure precise win counts and team performance metrics.
+* **Column Dropping:** Dropped the redundant `umpire3` column due to complete absence of historical records (100% null values).
 ---
 
 ##  Key Findings & Insights
