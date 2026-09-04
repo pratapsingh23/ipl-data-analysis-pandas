@@ -41,10 +41,16 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on I
 * **Chinnaswamy Stadium Trend:** Chasing teams dominated with 36 wins compared to 27 wins for teams batting first.
 * **(MI vs CSK Head-to-Head):** Mumbai Indians edge out Chennai Super Kings with a **12 - 10** head-to-head win record.
 * **(RCB vs CSK Head-to-Head):** CSK won more matches rather than RCB **(6 - 4)**  win record.
+  
 ### 4. Record Margin Victories
 * **Largest Run Margin Victory:** Mumbai Indians defeated Delhi Daredevils by **146 runs** in 2017.
 * **10-Wicket Victories:** Recorded 10 times in IPL history between 2008 and 2017.
 
+### 6. Venue-Wise Toss Advantage Analytics (Newly Added)
+* **Venue Conversion Matrix:** Applied `groupby()` and `.agg()` on venue data to analyze how frequently winning the toss translates into winning the match across different stadiums.
+* **Eden Gardens vs. Wankhede Toss Advantage Comparison:**
+  * **Eden Gardens (Kolkata):** Toss winners successfully converted to match wins **55.74%** of the time.
+  * **Wankhede Stadium (Mumbai):** Toss winners won the match **47.37%** of the time, showing a lower toss dependency compared to Kolkata.
 ---
 
 ##  Season Champions Summary
