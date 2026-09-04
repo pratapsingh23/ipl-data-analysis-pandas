@@ -46,7 +46,7 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on I
 * **Largest Run Margin Victory:** Mumbai Indians defeated Delhi Daredevils by **146 runs** in 2017.
 * **10-Wicket Victories:** Recorded 10 times in IPL history between 2008 and 2017.
 
-### 6. Venue-Wise Toss Advantage Analytics (Newly Added)
+### 5. Venue-Wise Toss Advantage Analytics (Newly Added)
 * **Venue Conversion Matrix:** Applied `groupby()` and `.agg()` on venue data to analyze how frequently winning the toss translates into winning the match across different stadiums.
 * **Eden Gardens vs. Wankhede Toss Advantage Comparison:**
   * **Eden Gardens (Kolkata):** Toss winners successfully converted to match wins **55.74%** of the time.
