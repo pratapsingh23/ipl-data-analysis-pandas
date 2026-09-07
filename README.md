@@ -1,11 +1,11 @@
  ## IPL Data Analysis (2008 - 2017)
 
-A comprehensive Data Analysis project on Indian Premier League (IPL) matches dataset using **Python** and **Pandas**. This project explores match outcomes, team performances, toss impacts, venue insights, and team rivalries over a 10-year period.
+A Data Analysis project on Indian Premier League (IPL) matches dataset using **Python** and **Pandas** only. This project tell us match outcomes, team performances, toss impacts, venue insights, and team rivalries over a 10-year period.
 
 ---
 
 ##  Project Overview
-The objective of this project is to perform Exploratory Data Analysis (EDA) on IPL historical data to unveil key patterns, strategic insights, and statistics about teams, players, and match outcomes.
+The main objective of this project is to perform Exploratory Data Analysis (EDA) on IPL historical data to unveil key patterns, strategic insights, and statistics about teams, players, and match outcomes.
 
 ---
 
@@ -46,11 +46,28 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on I
 * **Largest Run Margin Victory:** Mumbai Indians defeated Delhi Daredevils by **146 runs** in 2017.
 * **10-Wicket Victories:** Recorded 10 times in IPL history between 2008 and 2017.
 
-### 5. Venue-Wise Toss Advantage Analytics (Newly Added)
+### 5. Venue-Wise Toss Advantage Analytics 
 * **Venue Conversion Matrix:** Applied `groupby()` and `.agg()` on venue data to analyze how frequently winning the toss translates into winning the match across different stadiums.
 * **Eden Gardens vs. Wankhede Toss Advantage Comparison:**
   * **Eden Gardens (Kolkata):** Toss winners successfully converted to match wins **55.74%** of the time.
   * **Wankhede Stadium (Mumbai):** Toss winners won the match **47.37%** of the time, showing a lower toss dependency compared to Kolkata.
+
+### 6. Duckworth-Lewis (DLS) Method Impact (New)
+  * **Total DLS Matches:** 16 rain-affected matches recorded in the dataset[cite: 1, 3].
+  * **Outcome Breakdown:** Teams batting first won **9 matches (56.25%)**[cite: 1, 3], while chasing teams won **7 matches (43.75%)**[cite: 1, 3], indicating a slight advantage for defending teams in reduced-overs matches.
+
+### 7. Close Matches Analysis (New)
+  * **Criteria:** Victories achieved by **< 10 runs** or **< 2 wickets** (1-wicket wins)[cite: 1, 3].
+  * **Nail-Biter Finishes:** Identified **60 close matches** in total[cite: 1, 3] (59 close wins by runs and 1 dramatic 1-wicket win).
+
+### 8. Umpire Consistency & Frequency (New)
+  * Consolidated officiating records across both `umpire1` and `umpire2` roles[cite: 1].
+  * **Top 5 Most Frequent Umpires:**
+    1. **HDPK Dharmasena:** 87 matches
+    2. **S Ravi:** 85 matches
+    3. **AK Chaudhary:** 58 matches
+    4. **C Shamshuddin:** 56 matches
+    5. **SJA Taufel:** 55 matches
 ---
 
 ##  Season Champions Summary
