@@ -1,15 +1,15 @@
- ## IPL Data Analysis (2008 - 2017)
+## IPL Data Analysis (2008 - 2017)
 
 A Data Analysis project on Indian Premier League (IPL) matches dataset using **Python** and **Pandas** only. This project tell us match outcomes, team performances, toss impacts, venue insights, and team rivalries over a 10-year period.
 
 ---
 
-##  Project Overview
+## Project Overview
 The main objective of this project is to perform Exploratory Data Analysis (EDA) on IPL historical data to unveil key patterns, strategic insights, and statistics about teams, players, and match outcomes.
 
 ---
 
-##  Tech Stack & Methods Used
+## Tech Stack & Methods Used
 * **Language:** Python
 * **Data Processing:** Pandas
 * **Environment:** Jupyter Notebook / Google Colab
@@ -17,14 +17,15 @@ The main objective of this project is to perform Exploratory Data Analysis (EDA)
 
 ---
 
-##  Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 * **Missing Value Imputation:** Filled missing values in the `city` column dynamically using corresponding venue locations.
 * **Inplace Bug Fix for Missing Winners:** Correctly imputed missing values in the `winner` column using reassignment (`df['winner'] = df['winner'].fillna('No Result')`) to permanently persist changes in memory instead of temporary series outputs.
 * **Team Name Standardization:** Standardized duplicate team name entries (e.g., merging `'Rising Pune Supergiant'` and `'Rising Pune Supergiants'` into a single normalized entity) using `.replace()` mapping to ensure precise win counts and team performance metrics.
 * **Column Dropping:** Dropped the redundant `umpire3` column due to complete absence of historical records (100% null values).
+
 ---
 
-##  Key Findings & Insights
+## Key Findings & Insights
 
 ### 1. Overall Match Stats
 * **Total Matches Played:** 636
@@ -40,7 +41,7 @@ The main objective of this project is to perform Exploratory Data Analysis (EDA)
 * **Most Played Stadium:** M. Chinnaswamy Stadium (66 Matches).
 * **Chinnaswamy Stadium Trend:** Chasing teams dominated with 36 wins compared to 27 wins for teams batting first.
 * **(MI vs CSK Head-to-Head):** Mumbai Indians edge out Chennai Super Kings with a **12 - 10** head-to-head win record.
-* **(RCB vs CSK Head-to-Head):** CSK won more matches rather than RCB **(6 - 4)**  win record.
+* **(RCB vs CSK Head-to-Head):** CSK won more matches rather than RCB **(6 - 4)** win record.
   
 ### 4. Record Margin Victories
 * **Largest Run Margin Victory:** Mumbai Indians defeated Delhi Daredevils by **146 runs** in 2017.
@@ -53,24 +54,25 @@ The main objective of this project is to perform Exploratory Data Analysis (EDA)
   * **Wankhede Stadium (Mumbai):** Toss winners won the match **47.37%** of the time, showing a lower toss dependency compared to Kolkata.
 
 ### 6. Duckworth-Lewis (DLS) Method Impact (New)
-  * **Total DLS Matches:** 16 rain-affected matches recorded in the dataset[cite: 1, 3].
-  * **Outcome Breakdown:** Teams batting first won **9 matches (56.25%)**[cite: 1, 3], while chasing teams won **7 matches (43.75%)**[cite: 1, 3], indicating a slight advantage for defending teams in reduced-overs matches.
+* **Total DLS Matches:** 16 rain-affected matches recorded in the dataset.
+* **Outcome Breakdown:** Teams batting first won **9 matches (56.25%)**, while chasing teams won **7 matches (43.75%)**, indicating a slight advantage for defending teams in reduced-overs matches.
 
 ### 7. Close Matches Analysis (New)
-  * **Criteria:** Victories achieved by **< 10 runs** or **< 2 wickets** (1-wicket wins)[cite: 1, 3].
-  * **Nail-Biter Finishes:** Identified **60 close matches** in total[cite: 1, 3] (59 close wins by runs and 1 dramatic 1-wicket win).
+* **Criteria:** Victories achieved by **< 10 runs** or **< 2 wickets** (1-wicket wins).
+* **Nail-Biter Finishes:** Identified **60 close matches** in total (59 close wins by runs and 1 dramatic 1-wicket win).
 
 ### 8. Umpire Consistency & Frequency (New)
-  * Consolidated officiating records across both `umpire1` and `umpire2` roles[cite: 1].
-  * **Top 5 Most Frequent Umpires:**
-    1. **HDPK Dharmasena:** 87 matches
-    2. **S Ravi:** 85 matches
-    3. **AK Chaudhary:** 58 matches
-    4. **C Shamshuddin:** 56 matches
-    5. **SJA Taufel:** 55 matches
+* Consolidated officiating records across both `umpire1` and `umpire2` roles.
+* **Top 5 Most Frequent Umpires:**
+  1. **HDPK Dharmasena:** 87 matches
+  2. **S Ravi:** 85 matches
+  3. **AK Chaudhary:** 58 matches
+  4. **C Shamshuddin:** 56 matches
+  5. **SJA Taufel:** 55 matches
+
 ---
 
-##  Season Champions Summary
+## Season Champions Summary
 | Season | Champion |
 | :---: | :--- |
 | **2008** | Rajasthan Royals |
@@ -86,7 +88,7 @@ The main objective of this project is to perform Exploratory Data Analysis (EDA)
 
 ---
 
-##  How to Run
+## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/pratapsingh23/ipl-data-analysis-pandas.git
+   git clone [https://github.com/pratapsingh23/ipl-data-analysis-pandas.git](https://github.com/pratapsingh23/ipl-data-analysis-pandas.git)
